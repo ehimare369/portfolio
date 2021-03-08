@@ -1,16 +1,13 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./SideBar.scss";
 import NavBar from "../NavBar/NavBar";
+import Footer from "../Footer/Footer";
 
 const SideBar = () => (
   <div className="SideBar">
     <NavBar />
+    <Footer />
   </div>
 );
-
-SideBar.propTypes = {};
-
-SideBar.defaultProps = {};
 
 export default SideBar;

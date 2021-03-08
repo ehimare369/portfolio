@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./NavBar.scss";
 import { NavLink } from "react-router-dom";
 
@@ -36,9 +35,5 @@ const NavBar = () => {
     </nav>
   );
 };
-
-NavBar.propTypes = {};
-
-NavBar.defaultProps = {};
 
 export default NavBar;

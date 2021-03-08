@@ -1,15 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './Footer.scss';
+import React from "react";
+import "./Footer.scss";
 
 const Footer = () => (
-  <div className="Footer">
-    Footer Component
-  </div>
+  <footer className="Footer">
+    &copy; 2020-{new Date().getFullYear()}. Made With 💓
+  </footer>
 );
-
-Footer.propTypes = {};
-
-Footer.defaultProps = {};
 
 export default Footer;
