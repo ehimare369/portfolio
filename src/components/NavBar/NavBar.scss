@@ -1,1 +1,29 @@
-.NavBar {}
+.NavBar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  .nav-items {
+    text-align: center;
+    width: 100%;
+    .nav-item {
+      a {
+        color: inherit;
+        font-size: inherit;
+        display: block;
+        padding: 0.5rem 0;
+        text-transform: uppercase;
+        letter-spacing: 0.0675rem;
+        font-weight: 500;
+      }
+      .active {
+        border-left: 0.2rem solid var(--active);
+      }
+      a:hover {
+        background-color: #0381ffbc;
+        transition: 0.4s all ease;
+      }
+    }
+  }
+}
