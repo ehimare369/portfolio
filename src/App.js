@@ -9,8 +9,8 @@ import "./App.scss";
 
 function App() {
   return (
-    <Switch>
-      <MainLayout>
+    <MainLayout>
+      <Switch>
         <Route path="/" exact>
           <HomePage />
         </Route>
@@ -26,8 +26,8 @@ function App() {
         <Route path="/contact">
           <ContactPage />
         </Route>
-      </MainLayout>
-    </Switch>
+      </Switch>
+    </MainLayout>
   );
 }
 

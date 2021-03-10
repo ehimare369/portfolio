@@ -4,14 +4,17 @@
   align-items: center;
   justify-content: center;
   h4 {
-    padding: 1rem 0;
+    padding: 0.2rem 0;
+    font-size: 1rem;
   }
   a {
-    padding-right: 1rem;
+    padding-right: 0.5rem;
     transition: transform 0.25s;
+    font-size: 1.6rem;
+    display: inline-block; // Without this transform and translate effects will not work
   }
   a:hover {
-    transform: translateY(-0.5rem);
+    transform: translateY(-0.3rem);
   }
   a.tw {
     color: #55acee;
