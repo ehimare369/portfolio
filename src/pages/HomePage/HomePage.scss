@@ -1,22 +1,26 @@
 .HomePage {
-  // position: absolute;
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
-  // top: 50%;
-  // left: 50%;
-  // transform: translate(-50%, -50%);
-  .name {
-    color: goldenrod;
-    font-size: 3rem;
-    font-weight: 700;
-    letter-spacing: 0.16rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  h1 {
+    padding-bottom: 2.4rem;
+    .name {
+      color: var(--active);
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 0.16rem;
+    }
   }
   h2 {
     font-size: 3rem;
-
+    padding-bottom: 2.4rem;
     .title {
-      color: goldenrod;
+      color: var(--active);
       font-size: 3.5rem;
     }
 
@@ -38,8 +42,9 @@
     }
   }
   p {
-    font-size: 2rem;
-    color: var(--active);
+    font-size: 2.4rem;
+    // color: var(--active);
+    padding-bottom: 1.5rem;
   }
   .icons {
     display: flex;
