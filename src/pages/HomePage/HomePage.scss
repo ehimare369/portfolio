@@ -1,1 +1,49 @@
-.HomePage {}
+.HomePage {
+  // position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+  .name {
+    color: goldenrod;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.16rem;
+  }
+  h2 {
+    font-size: 3rem;
+
+    .title {
+      color: goldenrod;
+      font-size: 3.5rem;
+    }
+
+    .title::after {
+      content: "";
+      animation: spin 4s ease infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        content: "<Front End Developer />";
+      }
+      50% {
+        content: "<Back End Developer />";
+      }
+      100% {
+        content: "<Fullstack Developer />";
+      }
+    }
+  }
+  p {
+    font-size: 2rem;
+    color: var(--active);
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

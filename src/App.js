@@ -9,27 +9,25 @@ import "./App.scss";
 
 function App() {
   return (
-    <>
-      <Switch>
-        <MainLayout>
-          <Route path="/" exact>
-            <HomePage />
-          </Route>
-          <Route path="/about" exact>
-            <AboutPage />
-          </Route>
-          <Route path="/portfolio" exact>
-            <PortfolioPage />
-          </Route>
-          <Route path="/blog" exact>
-            <BlogPage />
-          </Route>
-          <Route path="/contact" exact>
-            <ContactPage />
-          </Route>
-        </MainLayout>
-      </Switch>
-    </>
+    <Switch>
+      <MainLayout>
+        <Route path="/" exact>
+          <HomePage />
+        </Route>
+        <Route path="/about">
+          <AboutPage />
+        </Route>
+        <Route path="/portfolio">
+          <PortfolioPage />
+        </Route>
+        <Route path="/blog">
+          <BlogPage />
+        </Route>
+        <Route path="/contact">
+          <ContactPage />
+        </Route>
+      </MainLayout>
+    </Switch>
   );
 }
 
