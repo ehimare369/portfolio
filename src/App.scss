@@ -11,8 +11,9 @@ body {
   --bg: #10121b;
   --sidebar: #191d2b;
   --active: #037fff;
-  --border: #2e344e;
+  --borderColor: #2e344e;
   --font: #a4acc4;
+  --border: 0.17rem solid var(--borderColor);
 }
 
 a {

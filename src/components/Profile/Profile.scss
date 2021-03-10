@@ -1,1 +1,18 @@
-.Profile {}
+.Profile {
+  width: 100%;
+  padding: 1rem 0;
+  border-bottom: 0.17rem solid var(--borderColor);
+
+  img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.17rem solid var(--borderColor);
+    border-radius: 100%;
+    transition: transform 0.3s;
+  }
+  img:hover {
+    transform: scale(1.1);
+  }
+}

@@ -1,10 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './Profile.scss';
+import React from "react";
+import PropTypes from "prop-types";
+import "./Profile.scss";
+import avatar from "../../img/ehimare.jpg";
 
 const Profile = () => (
   <div className="Profile">
-    Profile Component
+    <img src={avatar} alt="Ehimare Okosun" />
   </div>
 );
 
