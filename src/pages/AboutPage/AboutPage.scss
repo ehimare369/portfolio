@@ -1,7 +1,7 @@
 .AboutPage {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 2rem 2rem 1rem 3rem;
+
   .img {
     background-color: var(--active);
     height: 90vh;
@@ -20,16 +20,13 @@
   }
   .info p {
     padding-top: 0.5rem;
-    a {
-      color: inherit;
-    }
   }
 }
 
 // Skills Section
 .skills {
   // border-top: var(--border);
-  padding: 4rem 2rem 2rem 2rem;
+  padding: 4rem 0;
   .title {
     // padding-bottom: 2rem;
   }

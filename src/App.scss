@@ -5,6 +5,7 @@
 }
 
 body {
+  font-weight: 350;
   --font: #f2f3f4;
   color: var(--font);
   // color: #a4acc4;
@@ -15,10 +16,12 @@ body {
   --active: #2ec4b6;
   --borderColor: #2e344e;
   --border: 0.17rem solid var(--borderColor);
+  --hover: #0381ffbc;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  color: inherit;
 }
 
 li {

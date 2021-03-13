@@ -9,7 +9,7 @@ const PageLayout = ({ ...props }) => (
     <SideBar />
     <div className="PageLayout">
       <Header title={props.title} />
-      {props.children}
+      <div className="layout">{props.children}</div>
     </div>
   </>
 );

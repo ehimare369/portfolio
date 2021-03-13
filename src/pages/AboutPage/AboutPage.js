@@ -46,6 +46,7 @@ const AboutPage = () => (
             <p>Languages:</p>
             <p>Residence:</p>
             <p>Phone Numbers:</p>
+            <p>Email:</p>
             <p>Qualification:</p>
             <p>Time Zone:</p>
           </div>
@@ -61,8 +62,11 @@ const AboutPage = () => (
             <p>
               <a href="tel:+2347067204436">+2347067204436</a>
             </p>
+            <p>
+              <a href="mailto:ehimare369@gmail.com">ehimare369@gmail.com</a>
+            </p>
             <p>BSc. Civil Engineering</p>
-            <p>G.M.T +1 (W.A.T)</p>
+            <p>GMT +1</p>
           </div>
         </div>
       </div>

@@ -19,6 +19,9 @@
       .active {
         border-left: 0.5rem solid var(--active);
       }
+      a {
+        text-decoration: none;
+      }
       a:hover {
         background-color: #0381ffbc;
         transition: 0.4s all ease;

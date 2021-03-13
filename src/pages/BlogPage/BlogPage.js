@@ -1,11 +1,13 @@
 import React from "react";
 // import PropTypes from 'prop-types';
 import "./BlogPage.scss";
-import Card from "../../components/Card/Card";
+import BlogCard from "../../components/BlogCard/BlogCard";
 
 const BlogPage = () => (
   <div className="BlogPage">
-    <Card />
+    <BlogCard />
+    <BlogCard />
+    <BlogCard />
   </div>
 );
 

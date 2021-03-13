@@ -1,11 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './ServicesCard.scss';
+import React from "react";
+// import PropTypes from 'prop-types';
+import "./ServicesCard.scss";
 
 const ServicesCard = () => (
-  <div className="ServicesCard">
-    ServicesCard Component
-  </div>
+  <div className="ServicesCard">ServicesCard Component</div>
 );
 
 ServicesCard.propTypes = {};
