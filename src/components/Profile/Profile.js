@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import "./Profile.scss";
 import avatar from "../../img/ehimare.jpg";
 import SocialFollow from "../SocialFollow/SocialFollow";

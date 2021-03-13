@@ -1,1 +1,67 @@
-.AboutPage {}
+.AboutPage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem 2rem 1rem 3rem;
+  .img {
+    background-color: var(--active);
+    height: 90vh;
+    width: 95%;
+  }
+  .about {
+    width: 95%;
+  }
+  .text {
+  }
+  .infos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  .info p {
+    padding-top: 0.5rem;
+    a {
+      color: inherit;
+    }
+  }
+}
+
+// Skills Section
+.skills {
+  // border-top: var(--border);
+  padding: 4rem 2rem 2rem 2rem;
+  .title {
+    // padding-bottom: 2rem;
+  }
+  h3 {
+    padding: 2rem 0 1rem 0;
+  }
+  .tech-skills {
+    display: flex;
+    justify-content: space-between;
+
+    h4 {
+      padding-bottom: 0.8rem;
+    }
+    .icons {
+      padding-bottom: 0.4rem;
+      display: flex;
+    }
+    .icons span {
+      padding-left: 0.8rem;
+    }
+
+    // Icons coloring
+    .iconify {
+      font-size: 1.8rem;
+    }
+  }
+
+  .soft-skills {
+    display: flex;
+    justify-content: space-evenly;
+    .sk p {
+      padding-bottom: 0.4rem;
+    }
+  }
+}

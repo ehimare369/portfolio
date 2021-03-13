@@ -1,11 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './PortfolioPage.scss';
+import React from "react";
+// import PropTypes from 'prop-types';
+import "./PortfolioPage.scss";
 
 const PortfolioPage = () => (
-  <div className="PortfolioPage">
-    PortfolioPage Component
-  </div>
+  <div className="PortfolioPage">PortfolioPage Component</div>
 );
 
 PortfolioPage.propTypes = {};

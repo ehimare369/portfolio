@@ -13,19 +13,44 @@ const SocialFollow = () => (
   <div className="SocialFollow">
     <h4 className="social">Follow Me</h4>
     <div>
-      <a href="https://twitter.com/ehimare369" target="_blank" className="tw">
+      <a
+        href="https://twitter.com/ehimare369"
+        target="_blank"
+        rel="noreferrer"
+        className="tw"
+      >
         <FontAwesomeIcon icon={faTwitter} />
       </a>
-      <a href="https://github.com/ehimare369" target="_blank" className="gh">
+      <a
+        href="https://github.com/ehimare369"
+        target="_blank"
+        rel="noreferrer"
+        className="gh"
+      >
         <FontAwesomeIcon icon={faGithub} />
       </a>
-      <a href="https://youtube.com/ehimare369" target="_blank" className="yt">
+      <a
+        href="https://youtube.com/ehimare369"
+        target="_blank"
+        rel="noreferrer"
+        className="yt"
+      >
         <FontAwesomeIcon icon={faYoutube} />
       </a>
-      <a href="https://instagram.com/ehimare369" target="_blank" className="ig">
+      <a
+        href="https://instagram.com/ehimare369"
+        target="_blank"
+        rel="noreferrer"
+        className="ig"
+      >
         <FontAwesomeIcon icon={faInstagram} />
       </a>
-      <a href="https://facebook.com/ehimare369" target="_blank" className="fb">
+      <a
+        href="https://facebook.com/ehimare369"
+        target="_blank"
+        rel="noreferrer"
+        className="fb"
+      >
         <FontAwesomeIcon icon={faFacebook} />
       </a>
     </div>
